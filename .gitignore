@@ -1,0 +1,10 @@
+*.py[cod]
+**/__pycache__/
+
+# Local order data and generated supplier workbooks
+release/**/app/data/input/
+release/**/app/data/output/
+
+# Offline runtime and packaged distributions are kept locally only
+release/**/python/
+release/*.zip
